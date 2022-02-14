@@ -1,0 +1,93 @@
+body {
+  width: 500px;
+  height: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo{    
+  display: flex;
+  justify-content:center ;
+}
+h4{
+  margin-bottom: 0.3em;
+}
+.facebook-link{
+  height: 2%;
+  width:35%;
+  padding:1em;
+  background-color: rgba(0, 110, 255, 0.856);
+  border-radius: 30px;
+  color:white;
+  text-align: center;
+}
+.outer {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 5px;
+}
+.rule {
+  border-top: 1px solid black;
+  flex-grow: 1;
+}
+.user-info{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.text-box{
+  width:100%;
+  padding: 1em;
+  box-sizing: border-box;
+}
+.dob{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.year{
+  width:25%;
+  padding: 1em;
+}
+.month{
+  width: 40%;
+  padding: 1em;
+}
+.day{
+  width: 10%;
+  padding: 1em;
+}
+
+.sign-up{
+  width:20%;
+  border-radius: 30px;
+  padding: 1em;
+  text-align: center;
+  background-color: rgb(8, 163, 8);
+}
+
+a{
+  color: green;
+}
+.border{
+  border:1px solid black;
+}
+
+.gray{
+  color: gray;
+}
+
+h2{
+  font-size: 30px;
+}
